@@ -1,7 +1,7 @@
 SIMGrade
 
 Bem-vindo ao Simulador de Grade! Este é um webapp desenvolvido pela LAWD, ele permite visualizar e gerenciar suas grades horárias de forma interativa e intuitiva.
-Índice
+
 
     Descrição
     Funcionalidades
@@ -49,7 +49,7 @@ bash
     cd simulador-de-grade
 
     Abra o arquivo index.html em um navegador web:
-        Você pode simplesmente arrastar o arquivo para uma janela do navegador ou
+        Você pode utilizar a extensão Live Server do VSCode para subir a aplicação ou
         Clicar com o botão direito no arquivo index.html e selecionar "Abrir com" e escolher seu navegador preferido.
 
 Instruções de Uso
