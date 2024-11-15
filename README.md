@@ -40,7 +40,7 @@ Como Executar o Projeto
 
     bash
 
-git clone https://github.com/seu-usuario/simulador-de-grade.git
+git clone [https://github.com/seu-usuario/simulador-de-grade.git](https://github.com/Lawd-UFS/SIMGrade.git)
 
 Navegue até o diretório do projeto:
 
