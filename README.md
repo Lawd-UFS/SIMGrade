@@ -2,6 +2,7 @@
 
 Bem-vindo ao Simulador de Grade! Este é um webapp desenvolvido pela LAWD, ele permite visualizar e gerenciar suas grades horárias de forma interativa e intuitiva.
 
+
 ## Índice
 
 - Descrição
@@ -40,9 +41,9 @@ Tecnologias Utilizadas
 
 Clone o repositório ou faça o download dos arquivos:
 
-```bash
-git clone https://github.com/seu-usuario/simulador-de-grade.git
-```
+
+git clone [https://github.com/Lawd-UFS/SIMGrade.git](https://github.com/Lawd-UFS/SIMGrade.git)
+
 
 Navegue até o diretório do projeto:
 
@@ -52,7 +53,13 @@ Navegue até o diretório do projeto:
 
 Abra o arquivo `index.html` em um navegador web. Você pode simplesmente arrastar o arquivo para uma janela do navegador ou clicar com o botão direito no arquivo `index.html` e selecionar **"Abrir com"** e escolher seu navegador preferido.
 
+
 ## Instruções de Uso
+
+    Abra o arquivo index.html em um navegador web:
+        Você pode utilizar a extensão Live Server do VSCode para subir a aplicação ou
+        Clicar com o botão direito no arquivo index.html e selecionar "Abrir com" e escolher seu navegador preferido.
+
 
 **Adicionando Disciplinas:**
 
