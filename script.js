@@ -450,12 +450,24 @@
 // Função para baixar o PDF
 function baixarPDF() {
     // Caminho para o arquivo PDF
-    const pdfUrl = 'OfertaDcomp2024.pdf';
+    const pdfUrl = 'OfertaDCOMP-2025.pdf';
 
     // Cria um link temporário
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = 'OfertaDcomp2024.pdf';
+    link.download = 'OfertaDCOMP-2025.pdf';
     link.click();
 }
 
+// Função para limpar todas as disciplinas adicionadas
+function limparMaterias() {
+    if (confirm('Deseja realmente limpar todas as disciplinas adicionadas?')) {
+        // Remove os dados do localStorage
+        localStorage.removeItem('occupiedSlots');
+        // Limpa o objeto de horários ocupados
+        occupiedSlots = {};
+        // Regenera a grade para limpar todos os cards
+        gerarGrade();
+        alert('Todas as disciplinas foram removidas.');
+    }
+}
